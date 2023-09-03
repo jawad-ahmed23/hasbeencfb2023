@@ -9,6 +9,7 @@ import {
   Heading,
   Link
 } from "@chakra-ui/react";
+import Balancer from "react-wrap-balancer";
 
 const Fade = require("react-reveal/Fade");
 
@@ -40,7 +41,9 @@ export default function Hero() {
               color="primary"
               wordBreak="break-all"
             >
-              2023 has been pick em
+              <Balancer>
+                2023 has been pick em
+              </Balancer>
             </Heading>
           </Fade>
           <Fade bottom>
