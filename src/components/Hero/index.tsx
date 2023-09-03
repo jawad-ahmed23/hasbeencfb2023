@@ -59,7 +59,7 @@ export default function Hero() {
               rounded="full"
               size={{ base: "md", md: "lg" }}
               as={Link}
-              href="https://ncaa-bet-app.vercel.app/"
+              href="https://hasbeencfb2023-dashboard.vercel.app/"
               target="_blank"
             >
               Bet Now

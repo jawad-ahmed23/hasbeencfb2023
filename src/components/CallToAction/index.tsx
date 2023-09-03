@@ -6,9 +6,11 @@ import {
   Container,
   Button,
   useBreakpointValue,
+  Link,
 } from "@chakra-ui/react";
 import { SlArrowRight } from "react-icons/sl";
 import Image from "next/image";
+
 
 const Fade = require("react-reveal/Fade");
 
@@ -47,7 +49,9 @@ export default function CallToAction() {
               rounded="full"
               rightIcon={<SlArrowRight />}
             >
-              <Text textAlign="left" w="full">
+              <Text textAlign="left" w="full"
+                as={Link}
+                href="https://hasbeencfb2023-dashboard.vercel.app/">
                 Join Now
               </Text>
             </Button>
