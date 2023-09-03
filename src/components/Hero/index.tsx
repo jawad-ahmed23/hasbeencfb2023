@@ -39,7 +39,7 @@ export default function Hero() {
                 "2xl": "130px",
               }}
               color="primary"
-              wordBreak="break-all"
+
             >
               <Balancer>
                 2023 has been pick em
