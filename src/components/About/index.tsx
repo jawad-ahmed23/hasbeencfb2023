@@ -45,7 +45,7 @@ export default function About() {
                 lineHeight="1.2"
               >
                 Unleash your inner beast and dominate the NCAA football betting
-                scene with our cutting-edge platform BlitzBets!
+                scene with our cutting-edge platform!
               </Text>
             </Fade>
           </Box>
