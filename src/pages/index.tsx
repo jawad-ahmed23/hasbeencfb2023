@@ -17,7 +17,7 @@ export default function Home() {
           content="Bet smart, play fierce. Let the playdown begin!"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/public/football.png" />
       </Head>
       <main className={manrope.className}>
         <CHome />
