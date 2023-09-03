@@ -1,0 +1,67 @@
+a:hover {
+    text-decoration: none !important;
+}
+
+.infinit-move-1, .infinit-move-1-hover:hover {
+    animation: infinitMove1 2s infinite alternate;
+    transform: translateY(-20px); /* Starting position */
+}
+
+@keyframes infinitMove1 {
+    0%, 100% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+}
+
+.infinit-move-2 {
+    animation: infinitMove2 2s infinite alternate;
+    transform: translateY(-20px); /* Starting position */
+}
+
+@keyframes infinitMove2 {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.infinit-move-3 {
+    animation: infinitMove3 2s infinite alternate;
+    transform: translateY(-20px); /* Starting position */
+}
+
+@keyframes infinitMove3 {
+    0%, 100% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+}
+
+.infinit-move-4 {
+    animation: infinitMove4 2s infinite alternate;
+    transform: translateY(-20px); /* Starting position */
+}
+
+@keyframes infinitMove4 {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.infinit-move-hover:hover {
+    animation: infinitMove2 2s infinite alternate;
+}
+
+.heading-font {
+    font-family: var(--climate_crisis-font) !important;
+}
